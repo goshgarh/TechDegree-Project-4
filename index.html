@@ -1,0 +1,204 @@
+<!--
+* Lightbox Gallery v1.0 (https://kawshar.github.io/lightboxgallery/)
+* Copyright 2017 Kawshar Ahmed
+* Licensed GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html
+-->
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Searchable Gallery</title>
+  <link rel="stylesheet" href="css/lightboxgallery-min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>Searchable Gallery</h1>
+      <h2>Searchable gallery of stunning pictures of the nature.</h2>
+    </div>
+  </div>
+  
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+  <div class="container">
+     
+    
+      <div class="lightboxgallery-gallery clearfix">
+       
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/01.jpg" data-title="Hay Bales" data-alt="Hay Bales" data-desc="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><span class="span1" style="display: none">I love hay bales. Took this snap on a drive through the countryside past some straw fields.</span>
+          <div>
+            <img src="images/thumbnails/01.jpg" title="Hay Bales" alt="Hay Bales">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Hay Bales</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/02.jpg" data-title="Lake" data-alt="Lake" data-desc="The lake was so calm today. We had a great view of the snow on the mountains from here."><span class="span1" style="display: none">The lake was so calm today. We had a great view of the snow on the mountains from here.</span>
+          <div>
+            <img src="images/thumbnails/02.jpg" title="Lake" alt="Lake">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Lake</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/03.jpg" data-title="Canyon" data-alt="Canyon" data-desc="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+        <span class="span1" style="display: none">I hiked to the top of the mountain and got this picture of the canyon and trees below.
+
+</span>
+          <div>
+            <img src="images/thumbnails/03.jpg" title="Canyon" alt="Canyon">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Canyon</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/04.jpg" data-title="Iceberg" data-alt="Iceberg" data-desc="Iceberg 
+It was amazing to see an iceberg up close, it was so cold but didn’t snow today."><span class="span1" style="display: none">It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</span>
+          <div>
+            <img src="images/thumbnails/04.jpg" title="Iceberg" alt="Iceberg">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Iceberg</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/05.jpg" data-title="Desert" data-alt="Desert" data-desc="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."><span class="span1" style="display: none">The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</span>
+          <div>
+            <img src="images/thumbnails/05.jpg" title="Desert" alt="Desert">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Desert</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/06.jpg" data-title="Fall" data-alt="Fall" data-desc="Fall is coming, I love when the leaves on the trees start to change color."><span class="span1" style="display: none">
+Fall is coming, I love when the leaves on the trees start to change color.
+
+</span>
+          <div>
+            <img src="images/thumbnails/06.jpg" title="Fall" alt="Fall">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Fall</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/07.jpg" data-title="Plantation" data-alt="Plantation" data-desc="I drove past this plantation yesterday, everything is so green!"><span class="span1" style="display: none">Plantation 
+I drove past this plantation yesterday, everything is so green!
+
+</span>
+          <div>
+            <img src="images/thumbnails/07.jpg" title="Plantation" alt="Plantation">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Plantation</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/08.jpg" data-title="Dunes" data-alt="Dunes" data-desc="My summer vacation to the Oregon Coast. I love the sandy dunes!"><span class="span1" style="display: none">My summer vacation to the Oregon Coast. I love the sandy dunes! </span>
+          <div>
+            <img src="images/thumbnails/08.jpg" title="Dunes" alt="Dunes">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Dunes</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/09.jpg" data-title="Countryside Lane" data-alt="Countryside Lane" data-desc="We enjoyed a quiet stroll down this countryside lane."><span class="span1" style="display: none">Countryside Lane
+ We enjoyed a quiet stroll down this countryside lane. 
+
+</span>
+          <div>
+            <img src="images/thumbnails/09.jpg" title="Countryside Lane" alt="Countryside Lane">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Countryside Lane</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/10.jpg" data-title="Sunset" data-alt="Sunset" data-desc="Sunset at the coast! The sky turned a lovely shade of orange."><span class="span1" style="display: none"> Sunset at the coast! The sky turned a lovely shade of orange.
+
+</span>
+          <div>
+            <img src="images/thumbnails/10.jpg" title="Sunset" alt="Sunset">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Sunset</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/11.jpg" data-title="Cave" data-alt="Cave" data-desc="I did a tour of a cave today and the view of the landscape below was breathtaking."><span class="span1" style="display: none">
+I did a tour of a cave today and the view of the landscape below was breathtaking.</span>
+          <div>
+            <img src="images/thumbnails/11.jpg" title="Cave" alt="Cave">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Cave</span>
+            </div>
+          </div>
+        </a>
+        
+        <a class="lightboxgallery-gallery-item" target="_blank" href="images/12.jpg" data-title="Bluebells" data-alt="Bluebells" data-desc="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."><span class="span1" style="display: none">I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</span>
+          <div>
+            <img src="images/thumbnails/12.jpg" title="Bluebells" alt="Bluebells">
+            <div class="lightboxgallery-gallery-item-content">
+              <span class="lightboxgallery-gallery-item-title">Bluebells</span>
+            </div>
+          </div>
+        </a>
+        
+                
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      &copy; <a target="_blank" href="https://github.com/goshgarh/TechDegree">Goshgar Huseynov</a>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/lightboxgallery-min.js"></script>
+  <script type="text/javascript">
+  jQuery(function($) {
+    $(document).on('click', '.lightboxgallery-gallery-item', function(event) {
+      event.preventDefault();
+      $(this).lightboxgallery({
+        showCounter: true,
+        showTitle: true,
+        showDescription: true
+      });
+    });
+  });
+  </script>
+  <script>
+     function myFunction() {
+    var input, filter, x, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    
+    x = document.getElementsByClassName('lightboxgallery-gallery-item');
+    for (i = 0; i < x.length; i++) {
+          a = x[i].getElementsByClassName("span1")[0];
+        
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            x[i].style.display = "";
+        } else {
+            x[i].style.display = "none";
+
+        }
+    }
+}
+      
+    </script>
+</body>
+</html>
